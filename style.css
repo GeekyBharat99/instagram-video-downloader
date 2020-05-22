@@ -1,21 +1,22 @@
 .image-placeholder {
-  margin: auto;
-  width: 90%;
+  width: 95%;
 }
-@media (max-width: 420px) {
+@media (max-width: 680px) {
   .image-placeholder {
-    width: 320px;
-    max-width: 320px;
+    width: 950%;
   }
 }
 
 .result {
-  margin: 0 auto;
-  padding: 4em 1em;
-  max-width: 40em;
+  max-width: 70em;
 }
 .result video,
 .result img {
-  width: calc(100% - 4em);
-  margin: 2em;
+  width: 90%;
+}
+
+@media screen and (max-width: 680px) {
+  .result {
+    max-width: 70em;
+  }
 }
