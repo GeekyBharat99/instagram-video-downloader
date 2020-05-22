@@ -77,3 +77,14 @@ var fullYearCopyright = $("#fullYearCopyright"),
   getFullYearDate = new Date().getFullYear();
 
 fullYearCopyright.text(getFullYearDate);
+
+// if offline
+
+function myFunction() {
+  var x = navigator.onLine;
+  if (x == false) {
+    alert("You are not connected to internet, Plz connect to the internet");
+  }
+}
+
+window.myFunction();
