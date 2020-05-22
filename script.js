@@ -77,13 +77,3 @@ var fullYearCopyright = $("#fullYearCopyright"),
   getFullYearDate = new Date().getFullYear();
 
 fullYearCopyright.text(getFullYearDate);
-
-// copy to clipboard
-
-function myFunction() {
-  var copyText = document.getElementById("myInput");
-  copyText.select();
-  copyText.setSelectionRange(0, 99999);
-  document.execCommand("copy");
-  alert("Link Copied");
-}
