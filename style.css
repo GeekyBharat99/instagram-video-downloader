@@ -3,7 +3,7 @@
 }
 @media (max-width: 680px) {
   .image-placeholder {
-    width: 950%;
+    width: 95%;
   }
 }
 
@@ -17,6 +17,6 @@
 
 @media screen and (max-width: 680px) {
   .result {
-    max-width: 70em;
+    max-width: 85em;
   }
 }
