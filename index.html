@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#007BFF" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/icon-192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#007BFF" />
+    <meta name="msapplication-TileColor" content="#007BFF" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Instagram Video Downloader"
+    />
+    <meta name="msapplication-TileImage" content="images/icon-180.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <title>Instagram Video Downloader</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/54e9c89f82.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand">Instagram Video Downloader</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://bharattiwari.netlify.app/"
+              >About Me</a
+            >
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="mailto:bharattiwari9926@gmail.com"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main style="padding: 30px;">
+      <center>
+        <h2>Paste The Instagram URL Below</h2>
+        <div style="padding: 20px;">
+          <input
+            class="form-control"
+            type="text"
+            placeholder="Paste link here..."
+          />
+          <br />
+          <button class="btn btn-primary" onclick="getMedia()">Download</button>
+        </div>
+      </center>
+      <center>
+        <section class="result">
+          <div class="image-placeholder"></div>
+          <h6>
+            Copy image or video link from Instagram and put it on the input
+            field given above.
+          </h6>
+        </section>
+      </center>
+    </main>
+    <center>
+      <footer>
+        <h4>A Product By Bharat Tiwari</h4>
+        <h5>Made with ❤ in India.</h5>
+        <h5>You can connect with me on Social Media.</h5>
+        <div>
+          <a href="https://www.instagram.com/geeky_bharat99/">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+          &nbsp; &nbsp;
+          <a href="https://www.youtube.com/channel/UCIxsG8Is6UqT7fNbwI9O7lg">
+            <i class="fab fa-youtube fa-2x"></i> </a
+          >&nbsp; &nbsp;
+          <a href="https://github.com/GeekyBharat99">
+            <i class="fab fa-github fa-2x"></i>
+          </a>
+          <h6>
+            © Copyright.<span id="fullYearCopyright"></span> Bharat Tiwari - All
+            Rights Reserved.
+          </h6>
+        </div>
+      </footer>
+    </center>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

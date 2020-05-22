@@ -1,0 +1,21 @@
+.image-placeholder {
+  margin: auto;
+  width: 90%;
+}
+@media (max-width: 420px) {
+  .image-placeholder {
+    width: 320px;
+    max-width: 320px;
+  }
+}
+
+.result {
+  margin: 0 auto;
+  padding: 4em 1em;
+  max-width: 40em;
+}
+.result video,
+.result img {
+  width: calc(100% - 4em);
+  margin: 2em;
+}
