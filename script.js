@@ -12,7 +12,7 @@ const createVideo = (data) => {
   // create info
   let info = document.createElement("h6");
   info.textContent =
-    "Click on the Right Three dots <span>⋮</span> on video then click on Download and its done.";
+    "Click on the Right Three dots ⋮ on video then click on Download and its done.";
 
   render.innerHTML = "";
   render.appendChild(v);
