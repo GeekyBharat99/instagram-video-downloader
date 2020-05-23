@@ -33,7 +33,7 @@
     ></script>
     <link rel="manifest" href="manifest.json" />
   </head>
-  <body>
+  <body onloadstart="myFunction();">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <a class="navbar-brand">IG Downloader</a>
       <button
@@ -133,41 +133,48 @@
         <br />
         <h4 style="padding: 15px;">
           It is Totally Free to Use, Use it wisely.
+          <div class="mobileHide">
+            <h4>
+              Don't forget to share it with your friends.
+            </h4>
+          </div>
         </h4>
-        <h4 style="padding: 15px;">
-          You can Show your support By sharing It, Click on the Button Below to
-          Share via Whatsapp.you can also copy the link and share.
-        </h4>
-        <a
-          class="badge badge-pill badge-success"
-          style="font-size: 17px; padding: 15px;"
-          href="whatsapp://send?text=https://instameme.ml/ 
-            Hello friend, this is an instagram video Downloader, it downloads the instagram post(videos) very easily. You can install it too by adding it to Home Screen. Its Awesome try it."
-          data-action="share/whatsapp/share"
-          >Share via Whatsapp</a
-        >
-        <br /><br />
-        <h5 style="padding: 15px;">
-          Note: Don't try this share via whatsapp on desktop. its only for
-          mobile use.
-        </h5>
+
+        <div class="mobileShow">
+          <h4 style="padding: 15px;">
+            You can Show your support By sharing It, Click on the Button Below
+            to Share via Whatsapp. you can also copy the link and share.
+          </h4>
+          <a
+            class="badge badge-pill badge-success"
+            style="font-size: 17px; padding: 15px;"
+            href="whatsapp://send?text=https://instameme.ml/ Hello friend, this is an instagram video Downloader, it downloads the instagram post(videos) very easily. You can install it too by adding it to Home Screen. Its Awesome try it."
+            data-action="share/whatsapp/share"
+            >Share via Whatsapp</a
+          >
+          <br /><br />
+          <h5 style="padding: 15px;">
+            Note: Don't try this share via whatsapp on desktop. its only for
+            mobile use.
+          </h5>
+        </div>
       </center>
       <br />
       <br />
-      <footer>
+      <footer style="background-color: #007bff; padding: 10px; color: white;">
         <h4>A Product By Bharat Tiwari</h4>
         <h5>Made with ❤ in India.</h5>
         <h5>You can connect with me on Social Media.</h5>
         <div>
           <a href="https://www.instagram.com/geeky_bharat99/">
-            <i class="fab fa-instagram fa-2x"></i>
+            <i class="fab fa-instagram fa-2x" style="color: white;"></i>
           </a>
           &nbsp; &nbsp;
           <a href="https://www.youtube.com/channel/UCIxsG8Is6UqT7fNbwI9O7lg">
-            <i class="fab fa-youtube fa-2x"></i> </a
+            <li class="fab fa-youtube fa-2x" style="color: white;"></li> </a
           >&nbsp; &nbsp;
           <a href="https://github.com/GeekyBharat99">
-            <i class="fab fa-github fa-2x"></i>
+            <i class="fab fa-github fa-2x" style="color: white;"></i>
           </a>
           <h6>
             © Copyright.<span id="fullYearCopyright"></span> Bharat Tiwari - All

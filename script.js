@@ -81,10 +81,9 @@ fullYearCopyright.text(getFullYearDate);
 // if offline
 
 function myFunction() {
-  var x = navigator.onLine;
-  if (x == false) {
+  if (!navigator.onLine) {
     alert("You are not connected to internet, Plz connect to the internet");
   }
 }
-
+Object.myFunction();
 window.myFunction();

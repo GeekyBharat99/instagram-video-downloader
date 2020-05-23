@@ -20,3 +20,24 @@
     max-width: 85em;
   }
 }
+
+.mobileShow {
+  display: none;
+}
+
+/* Smartphone Portrait and Landscape */
+@media screen and (max-width: 680px) {
+  .mobileShow {
+    display: block;
+  }
+}
+
+.mobileHide {
+  display: block;
+}
+
+@media screen and (max-width: 680px) {
+  .mobileHide {
+    display: none;
+  }
+}
