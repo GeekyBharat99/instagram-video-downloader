@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-167470880-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-167470880-1");
+    </script>
+
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#007BFF" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/icon-192.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="#007BFF" />
+    <meta name="msapplication-TileColor" content="#007BFF" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Instagram Video Downloader"
+    />
+    <meta name="msapplication-TileImage" content="images/icon-180.png" />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <title>Instagram Video Downloader</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/54e9c89f82.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="manifest" href="manifest.json" />
+  </head>
+  <body onloadstart="myFunction();">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand">IG Downloader</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://instameme.ml/">Home</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="https://bharattiwari.ml/">About Me</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="mailto:bharattiwari9926@gmail.com"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main style="padding: 30px;">
+      <center>
+        <h2>Paste The Instagram URL Below</h2>
+        <div style="padding: 20px;">
+          <input
+            class="form-control"
+            type="text"
+            placeholder="Paste link here..."
+          />
+          <br />
+          <button class="btn btn-primary" onclick="getMedia(); myFunction();">
+            Download
+          </button>
+        </div>
+      </center>
+      <center>
+        <section class="result">
+          <div class="image-placeholder"></div>
+          <h6>
+            Copy image or video link from Instagram and put it on the input
+            field given above.
+          </h6>
+        </section>
+      </center>
+    </main>
+    <center>
+      <br />
+      <center>
+        <h3>How to use it?</h3>
+        <div style="padding: 20px;">
+          <p>
+            1. Go to instagram.com, find Instagram image or video that you want
+            to save.
+          </p>
+          <p>
+            2. Now copy link of that post.
+          </p>
+          <p>
+            3. Paste the URL on the input field given above and click on
+            "Download" button.
+          </p>
+          <p>
+            4. Now that video will play, click on the right three dots
+            <mark style="background-color: yellow; color: black;">⋮</mark> on
+            the video then click on Download and its done.
+          </p>
+          <p>
+            5. Done 👍😉.
+          </p>
+        </div>
+        <br />
+        <h6>Note : Don't Try it on private account's post.</h6>
+        <br />
+        <h3 style="padding: 15px;">
+          You can install it too, Its a Progressive Web App
+        </h3>
+        <p style="padding: 20px;">
+          When you open the website a popup from bottom will come Which says,
+          "Add to home screen" just click on it and then click on ADD.its done,
+          you can see in your Apps it is Installed. Incase you missed that
+          popup, Click on the three dots
+          <mark style="background-color: yellow; color: black;">⋮</mark> of your
+          Browser, and select "Add to Home screen" then click on Add. its done,
+          your app is installed.
+        </p>
+        <br />
+        <h4 style="padding: 15px;">
+          It is Totally Free to Use, Use it wisely.
+          <div class="mobileHide">
+            <h4>
+              Don't forget to share it with your friends.
+            </h4>
+          </div>
+        </h4>
+
+        <div class="mobileShow">
+          <h4 style="padding: 15px;">
+            You can Show your support By sharing It, Click on the Button Below
+            to Share via Whatsapp. you can also copy the link and share.
+          </h4>
+          <a
+            class="badge badge-pill badge-success"
+            style="font-size: 17px; padding: 15px;"
+            href="whatsapp://send?text=https://instameme.ml/ Hello friend, this is an instagram video Downloader, it downloads the instagram post(videos) very easily. You can install it too by adding it to Home Screen. Its Awesome try it."
+            data-action="share/whatsapp/share"
+            >Share via Whatsapp</a
+          >
+          <br /><br />
+          <h5 style="padding: 15px;">
+            Note: Don't try this share via whatsapp on desktop. its only for
+            mobile use.
+          </h5>
+        </div>
+      </center>
+      <br />
+      <br />
+      <footer style="background-color: #007bff; padding: 10px; color: white;">
+        <h4>A Product By Bharat Tiwari</h4>
+        <h5>Made with ❤ in India.</h5>
+        <h5>You can connect with me on Social Media.</h5>
+        <div>
+          <a href="https://www.instagram.com/geeky_bharat99/">
+            <i class="fab fa-instagram fa-2x" style="color: white;"></i>
+          </a>
+          &nbsp; &nbsp;
+          <a href="https://www.youtube.com/channel/UCIxsG8Is6UqT7fNbwI9O7lg">
+            <li class="fab fa-youtube fa-2x" style="color: white;"></li> </a
+          >&nbsp; &nbsp;
+          <a href="https://github.com/GeekyBharat99">
+            <i class="fab fa-github fa-2x" style="color: white;"></i>
+          </a>
+          <h6>
+            © Copyright.<span id="fullYearCopyright"></span> Bharat Tiwari - All
+            Rights Reserved.
+          </h6>
+        </div>
+      </footer>
+    </center>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
