@@ -41,3 +41,15 @@
     display: none;
   }
 }
+.transform{
+  transition: all 0.2s ease-in-out;
+}
+.transform:hover{
+  transform: scale(1.2) translateY(1px);
+}
+.transition{
+  transition: all 0.2s ease-in-out;
+}
+.transition:hover{
+  transform: translateY(2px);
+}
